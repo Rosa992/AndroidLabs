@@ -11,7 +11,7 @@
         android:id="@+id/textview"
         android:layout_width="197dp"
         android:layout_height="84dp"
-        android:text="@string/I_love_android"
+        android:text="@string/result_placeholder"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,15 +20,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.046" />
 
+
     <Button
 
-        android:id="@+id/button"
+        android:id="@+id/buttonPressMe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Im_a_button"
+        android:text="@string/PressMe"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="294dp"
-        android:onClick="onButtonClick"/>
+
         />
 
     <Switch
@@ -40,11 +41,11 @@
         tools:layout_editor_absoluteY="128dp" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/MyCheckBox"
         android:layout_width="116dp"
         android:layout_height="47dp"
         android:text="Check this out!"
-        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteX="266dp"
         tools:layout_editor_absoluteY="294dp" />
 
     <ImageView
@@ -69,6 +70,7 @@
         tools:layout_editor_absoluteY="400dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="I love Android" />

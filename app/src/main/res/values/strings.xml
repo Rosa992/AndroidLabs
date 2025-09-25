@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">AndroidLabs</string>
     <string name="I_love_android">I love Android</string>
-    <string name="Im_a_button">Press Me</string>
+    <string name="PressMe">Press Me</string>
+    <string name="hint_input">I love Android</string>
+    <string name="result_placeholder">I love Android</string>
 </resources>

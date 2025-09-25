@@ -5,53 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="165dp"
-        android:layout_height="73dp"
-        android:text="I Love Android"
-        android:textSize="30dp"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="152dp"
-        android:layout_height="33dp"
-        android:text="Switch on/ off"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="97dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Check this out!"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="178dp" />
-
-    <TableLayout
-        android:layout_width="409dp"
-        android:layout_height="503dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="227dp">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </TableLayout>
 
     <ImageView
         android:id="@+id/imageView"
@@ -64,20 +17,74 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="244dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="207dp">
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="365dp">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="I love Android" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonPressMe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Press Me"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textViewOutput"
+        android:layout_width="165dp"
+        android:layout_height="73dp"
+        android:text="@string/result_placeholder"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="I love Android"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="152dp"
+        android:layout_height="33dp"
+        android:text="Switch on/ off"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <CheckBox
+        android:id="@+id/MyCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check this out!"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TableLayout
+        android:layout_width="411dp"
+        android:layout_height="727dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

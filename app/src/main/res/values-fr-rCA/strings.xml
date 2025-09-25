@@ -2,4 +2,7 @@
 <resources>
     <string name="hello_world">Bonjour le monde</string>
     <string name="je_suis_un_bouton">Je suis un bouton!</string>
+    <string name="PresseMoi">Presse Moi</string>
+    <string name="hint_input">J/'aime Android</string>
+    <string name="result_placeholder">J/'aime Android</string>
 </resources>
